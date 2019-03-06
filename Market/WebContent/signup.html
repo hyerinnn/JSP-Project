@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>우리놀러갈래?</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+</head>
+<body>
+<div id ="header">
+	<div id="info">
+		<div id="free">
+			<p>hello!!!!</p>
+		</div>
+		<div id="con">
+			<ul>
+				<li><a href="login.html">LOGIN</a></li>
+				<li><a href="signup.html">JOIN US</a></li>
+				<li><a href="myPage.html">MY PAGE</a></li>
+				<li><a href="Manage.html">Manage</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="navigation">
+		<div id="navigation-area">
+			<div id="logo">
+				<a href="main.jsp">
+					<h1>우리놀러갈래?</h1>
+				</a>
+			</div>
+			<div id="manu">
+				<ul>
+					<li><a href="main.jsp"> 홈 </a></li>
+					<li><a href="subrecom.jsp"> 여행지 추천받기 </a></li>
+					<li><a href="recommend.html"> 추천하기 </a></li>
+					<li><a href="board.jsp"> 후기게시판 </a></li>
+				</ul>
+			</div>
+		</div>		
+	</div>
+</div>
+
+<center> 
+<h2>회원가입</h2>
+<hr>
+
+<form method="post" action="signup.jsp" enctype="multipart/form-data"> 
+	 <table boarder=1 cellspacing="1"  cellpadding="5">
+
+	 	   <tr>
+			      <td align="right">이름</td>       
+			      <td><input type="text"  name="name" ></td>   
+		   </tr>
+		   <tr>
+			      <td align="right">아이디</td>       
+			      <td><input type="text"  name="id" ></td>   
+		   </tr>
+		   <tr>
+			      <td align="right"> 패스워드 </td>
+			      <td><input type="password"  name="ps" ></td> 
+		   </tr>
+		    <tr>
+		    <tr>
+			      <td align="right">패스워드(확인)</td>       
+			      <td><input type="password"  name="psc" ></td>   
+		   </tr>
+		   	<tr>
+				<td align ="right">생년월일</td>
+				<td><input type="text" name="birth"> </td>
+			</tr>
+		   
+		   <tr>
+			      <td colspan=2  align="center">
+			      		<input type="submit"  value="확인">
+			            <input type="reset"  value="취소">
+			      </td> 
+		   </tr>
+	 </table>
+</form>
+</center>
+<div id="footer-area">
+	<div id="footer">
+		<span><a href="#">혜린이재윤이</a></span>
+	    <span id="cpyrt">Copyright2016(c) 고고고고고</span>
+	</div>
+</div>
+
+</body>
+</html>
